@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Lora", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", Inter, system-ui, sans-serif;
+
+  --color-canvas: #faf9f6;
+  --color-surface: #ffffff;
+  --color-subtle: #f4ece8;
+  --color-brand-primary: #8e6c66;
+  --color-brand-primary-hover: #755650;
+  --color-brand-secondary: #3d5a58;
+  --color-ink-primary: #1f2421;
+  --color-ink-secondary: #57534e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-sans);
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-ink-primary);
+  font-size: 1.6rem;
+}
